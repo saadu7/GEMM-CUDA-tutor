@@ -20,8 +20,8 @@ None needed! Just run the .pyinb files
 <br><br>
 ## AI Usage
 Found the best way to use AI for notebooks is
-1. First write out as much as I could based on my original notes, trying to add any personal thoughts ( + attempts at humor) so it could feel like a personalized discussion between me and the reader
-2. Proofread (and if necessary, refine) the actual technical parts, ensuring I did not make any mistakes. as last thing to have in this
+1. First, write out as much as I could based on my original notes, trying to add any personal thoughts (+ attempts at humor) so it could feel like a personalized discussion between me and the reader - not just a textbook.
+2. Ask the LLM to proofread (and if necessary, refine) the actual technical parts, ensuring I did not make any mistakes. Even though its meant to be a more casual 'read-along' guide, accuracy comes **first**. The goal here is still to inform the reader, who should never have to worry about being misled by incorrect information.
 #### Example Usage
 I wrote the following MD cell in [**`cuda_preface.ipynb`**](cuda_preface.ipynb) when trying to introduce the idea of threads:<br><br> *'<sub> You might, after hearing all this talk of processes and cores and whatnot, think you have heard kernels in similar contexts, but let me stop you right there. This is a common misconception. You would be thinking of OS kernels, which is a core component of an OS, responsible for managing symtem resources. These are **NOT** the same as the CUDA kernels we are focusing on. </sub> <br><br>
 CUDA kernels are ran on the GPU, but are launched (regular function call) from CPU code, invoking a **grid** of **blocks**. As with regular function calls too, we can pass in the number of **blocks**, and the number of **threads** per **block**, as function arguments.'* 
