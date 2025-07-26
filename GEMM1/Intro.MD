@@ -16,7 +16,7 @@ This section of the repo sets out to be a "read-along" learning guide that aims 
 
 So, sit back, grab some coffee, maybe a pen and paper, and enjoy the ride. We'll provide visuals for crucial understanding, and it may be helpful to jot down points / make some rough sketches as we try to grasp some of the following concepts, through the kernel optimizations:
 
-<sub>**Note:** honestly, don't even look at these right now, it might deter you because of how scary and foreign they might sound, come back here later to review them</sub>
+<sub>**Note:** honestly, don't even look at these right now, it might deter you from starting because of how scary and foreign they might sound, come back here later to review them</sub>
 - Parallelism & CUDA thread hierarchy (grids, blocks, threads and warps)
 - Global memory coalescing (why memory access patterns matter)
 - Shared memory tiling (reusing data to save bandwidth)
@@ -38,6 +38,6 @@ My objective here is to just demystify some of the expert-level explanations, es
 
 <br><br>
 ## TLDR:
-- Iteratively improving CUDA kernels
+- Iteratively improving CUDA kernels for GEMM
 - My journey making sense of them
 - Enjoy!
