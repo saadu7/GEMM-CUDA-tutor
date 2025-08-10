@@ -1,5 +1,5 @@
 # Intro
-This section is a learning guide built around [Alex Armbruster Great Efforts](https://alexarmbr.github.io/2024/08/10/How-To-Write-A-Fast-Matrix-Multiplication-From-Scratch-With-Tensor-Cores.html#introduction) to write an optimized GEMM (General Matrix Multiplication) kernel (function) in CUDA using tensor cores on NVIDIA Tesla T4 GPU. He iteratively improves his implementation of the kernel, to squize more juice out of the GPU.
+This section is a learning guide built around [Alex Armbruster's Great Efforts](https://alexarmbr.github.io/2024/08/10/How-To-Write-A-Fast-Matrix-Multiplication-From-Scratch-With-Tensor-Cores.html#introduction) to write an optimized HGEMM (Half-Precision General Matrix Multiplication) kernel (function) in CUDA using tensor cores on NVIDIA Tesla T4 GPU. He iteratively improves his implementation of the kernel, to squize more juice out of the GPU.
 
 <br><br>
 ## Significance
