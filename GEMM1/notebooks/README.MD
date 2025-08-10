@@ -18,8 +18,8 @@ Jupyter notebooks that pair theory, CUDA code, and performance analysis (+ a bit
 None needed! Just run the .pyinb files
 
 <br><br>
-## AI Usage
-Found the best way to use AI for notebooks is
+## AI Usage (in terms of writing)
+Explicit prompts used for clearing concepts and learning aid are included in the notebooks, but in terms of writing the guide itself, found the best way to use AI for notebooks is
 1. First, write out as much as I could based on my original notes, trying to add any personal thoughts (+ attempts at humor) so it could feel like a personalized discussion between me and the reader - not just a textbook.
 2. Ask the LLM to proofread (and if necessary, refine) the actual technical parts, ensuring I did not make any mistakes. Even though its meant to be a more casual 'read-along' guide, accuracy comes **first**. The goal here is still to inform the reader, who should never have to worry about being misled by incorrect information.
 #### Example Usage
