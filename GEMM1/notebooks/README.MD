@@ -6,16 +6,23 @@ Jupyter notebooks that pair theory, CUDA code, and performance analysis (+ a bit
 <sub>*Highly advised to follow the order*</sub>
 
 1. [**`cuda_preface.ipynb`**](cuda_preface.ipynb): Intro to CUDA - syntax, execution model, more.
-2. [**`naive_gemm.ipynb`**](naive_gemm.ipynb): 
-2. [**`coalesced_gemm.ipynb`**](coalesced_gemm.ipynb): 
-3. [**`smem_gemm.ipynb`**](smem_gemm.ipynb): 
-4. [**`blocktiling_gemm.ipynb`**](blocktiling_gemm.ipynb): 
-5. [**`vectorized_gmem.ipynb`**](vectorized_gmem.ipynb): , same code used for the next optimization, just parameter tuning on the same algorithm
-6. [**`warptiling_gemm.ipynb`**](warptiling_gemm.ipynb):oo
+2. [**`blas_preface.ipynb`**](blas_preface.ipynb): Intro to BLAS - SGEMM, cuBLAS : lays foundation of the objective here.
+2. [**`naive_gemm.ipynb`**](naive_gemm.ipynb):
+4. [**`coalesced_gemm.ipynb`**](coalesced_gemm.ipynb): 
+5. [**`smem_gemm.ipynb`**](smem_gemm.ipynb): 
+6. [**`blocktiling_gemm.ipynb`**](blocktiling_gemm.ipynb): 
+7. [**`2d_blocktiling_gemm.ipynb`**](2d_blocktiling_gemm.ipynb): 
+8. [**`vectorized_gmem.ipynb`**](vectorized_gmem.ipynb): 
+9. [**`parameter_finetuning.ipynb`**](parameter_finetuning.ipynb): same code used as the previous kernel, just optimized by parameter tuning on the same algorithm
+10. [**`warptiling_gemm.ipynb`**](warptiling_gemm.ipynb):
 
 <br><br>
 ## Setup
 None needed! Just run the .pyinb files
+
+<br><br>
+## Prompt Theory
+It should be noted that at the end of each notebook, is a heading titled 'Prompt Theory' that lists a handful of prompts (and what they essentially taught me) that helped me tackle concepts that I was having a tough time with. You don't need to look at these, but if for curiousity sake, you wish to, then feel free. These are moreso included for the effectiveness tracking of prompts fed to LLMs, when they are used as a tool to break through concepts and make them more absorbable, along with intuitive examples and analogies.
 
 <br><br>
 ## AI Usage (in terms of writing)

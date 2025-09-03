@@ -1,6 +1,9 @@
 # Intro
 Standalone, raw CUDA '.cu' files showing each stage of Simon Boehm's GPU optimization process. Kernel comments are the original ones included by Simon himself.
 
+### Note
+<sub>Highly advised to go through the notebooks section first, especially the introductory notebooks [**`cuda_preface.ipynb`**](../notebooks/cuda_preface.ipynb)and [**`blas_preface.ipynb`**](./notebooks/blas_preface.ipynb). If you're too stubborn for all that and want to jump straight into the kernels, at least understand the structure of CUDA files, to see how these .cu files work -> [Click here](../notebooks/cuda_preface.ipynb#cuda-project-structure)</sub>
+
 ## Kernal Index
 <sub>*Highly advised to follow the order*</sub>
 1. [**`naive_gemm.cu`**](naive_gemm.cu): 
